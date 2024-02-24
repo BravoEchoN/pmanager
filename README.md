@@ -1,13 +1,10 @@
-This Python script provides a simple yet secure way to manage your passwords locally. It utilizes encryption to store passwords securely. Here's a breakdown of its functionalities:
+This Python script provides a simple yet secure way to manage your passwords locally. It utilizes encryption to store passwords securely.
 
+Here's a breakdown of its functionalities:
 Encryption: Passwords are encrypted using the Fernet symmetric encryption scheme, ensuring that stored passwords are secure.
-
 Data Management: The script allows you to add, retrieve, and delete passwords for various services.
-
 Password Generation: You can generate strong passwords of custom lengths for new services.
-
 Master Password: A master password is set up to access and manage the stored passwords. This password is used to encrypt and decrypt the data.
-
 User Interaction: The script provides a command-line interface for users to interact with the password manager.
 
 Features:
